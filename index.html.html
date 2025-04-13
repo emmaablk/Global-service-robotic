@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSR - Global Service Robotic</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://www.husqvarna.com/dimage.axd/product/gallery/large/automower-450x-2x.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .hero h2 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      background-color: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      background-color: #28a745;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 60px 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section h3 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 40px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .hero h2 {
+        font-size: 2em;
+      }
+
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Global Service Robotic (GSR)</h1>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#produits">Produits</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h2>Votre jardin. Notre technologie Husqvarna.</h2>
+      <a href="#produits" class="btn">Voir nos robots</a>
+    </div>
+  </section>
+
+  <section class="section" id="produits">
+    <h3>Nos Robots Tondeuses Husqvarna</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="https://www.husqvarna.com/dimage.axd/product/gallery/large/automower-310-mark-ii-1.jpg" alt="Husqvarna 310">
+        <h4>Husqvarna Automower® 310 Mark II</h4>
+        <p>Parfait pour les jardins jusqu’à 1000 m². Compact, intelligent, performant.</p>
+      </div>
+      <div class="card">
+        <img src="https://www.husqvarna.com/dimage.axd/product/gallery/large/automower-430x-2.jpg" alt="Husqvarna 430X">
+        <h4>Husqvarna Automower® 430X</h4>
+        <p>Pour les grands terrains jusqu’à 3200 m². Navigation GPS, silencieux, autonome.</p>
+      </div>
+      <div class="card">
+        <img src="https://www.husqvarna.com/dimage.axd/product/gallery/large/automower-450x-1.jpg" alt="Husqvarna 450X">
+        <h4>Husqvarna Automower® 450X</h4>
+        <p>Modèle haut de gamme pour jardins complexes jusqu’à 5000 m². Technologie IA avancée.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <h3>Nos Services GSR</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Conseil personnalisé</h4>
+        <p>Un expert GSR vous aide à choisir le modèle adapté à votre terrain.</p>
+      </div>
+      <div class="card">
+        <h4>Installation professionnelle</h4>
+        <p>Installation, configuration et test de votre robot chez vous.</p>
+      </div>
+      <div class="card">
+        <h4>Entretien & SAV</h4>
+        <p>Support rapide, entretien saisonnier et réparations sous garantie.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 GSR - Global Service Robotic. Revendeur officiel de robots tondeuses Husqvarna.
+  </footer>
+
+</body>
+</html>
+
